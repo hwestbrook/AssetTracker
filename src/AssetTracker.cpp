@@ -219,9 +219,9 @@ int AssetTracker::readXYZmagnitude() {
 }
 
 bool AssetTracker::setupLowPowerWakeMode(uint8_t movementThreshold) {
-    return accel.setupLowPowerWakeMode(movementThreshold);
+  return accel.setupLowPowerWakeMode(movementThreshold);
 }
 
 uint8_t AssetTracker::clearAccelInterrupt() {
-    return accel.clearInterrupt();
+  return accel.clearInterrupt();
 }
